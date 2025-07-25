@@ -22,13 +22,14 @@ The app:
 **1. Clone the repository**
 
 git clone https://github.com/your-username/versevision.git
+
 cd versevision
 
 **2. Create and activate a virtual environment**
 
-python -m venv .venv
-source .venv/bin/activate        # On macOS/Linux
-.venv\Scripts\activate           # On Windows
+* python -m venv .venv
+* source .venv/bin/activate        # On macOS/Linux
+* .venv\Scripts\activate           # On Windows
 
 **3. Install dependencies**
 
@@ -37,6 +38,8 @@ pip install -r requirements.txt
 **4. Set up your API keys**
 
 Create a file named .env in the root folder with the following content:
+
+OPENAI_API_KEY=your_openai_api_key_here
 
 HUGGINGFACE_API_TOKEN=your_huggingface_api_key_here
 
@@ -59,4 +62,4 @@ streamlit run app.py
 
 **Olga Mondrus** – Concept, Design, and Development
 
-**Alex Braginsky** - Development
+**Alex Braginsky** - Development, Validation, and Testing
